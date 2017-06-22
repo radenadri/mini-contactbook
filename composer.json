@@ -1,0 +1,19 @@
+{
+    "name": "raden/contactbook",
+    "description": "A simple contactbook",
+    "type": "project",
+    "authors": [
+        {
+            "name": "radenadri",
+            "email": "radenadriep@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^0.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Database\\Models\\": "src/Database/Models/"
+        }
+    }
+}
